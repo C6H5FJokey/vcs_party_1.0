@@ -1,0 +1,4 @@
+#$(module_prefix)_set_player
+# 初始化一名$(module_name)玩家
+# 输入玩家为执行者
+
