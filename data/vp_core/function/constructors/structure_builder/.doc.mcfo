@@ -1,6 +1,6 @@
-#vp_core:constructors/srtucture_builder/doc.mcfo
+#vp_core:constructors/structure_builder/doc.mcfo
 
-# srtucture_builder临时对象
+# structure_builder临时对象
 _this:{
 	progress:<vp_progress,int>,
 	field_size:[storage vp_core:io field_size,Int],

@@ -1,4 +1,4 @@
-#vp_core:constructors/srtucture_builder/_iter
+#vp_core:constructors/structure_builder/_iter
 # 临时对象运行一次构造迭代
 # 输出entity @e[tag=vp_instance]
 

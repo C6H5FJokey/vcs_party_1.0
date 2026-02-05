@@ -1,4 +1,4 @@
-#vp_core:constructors/srtucture_builder/_zero
+#vp_core:constructors/structure_builder/_zero
 # 把临时对象的全部数据置0
 
 scoreboard players set vp_progress int 0
