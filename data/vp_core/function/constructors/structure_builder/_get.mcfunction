@@ -1,4 +1,4 @@
-#vp_core:constructors/srtucture_builder/_get
+#vp_core:constructors/structure_builder/_get
 # 实体对象赋值到临时对象
 # 输入执行实体
 
