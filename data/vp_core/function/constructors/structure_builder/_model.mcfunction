@@ -1,4 +1,4 @@
-#vp_core:constructors/srtucture_builder/_model
+#vp_core:constructors/structure_builder/_model
 # 使用临时对象构建数据模板
 # 输出数据模板storage vp_core:io result
 

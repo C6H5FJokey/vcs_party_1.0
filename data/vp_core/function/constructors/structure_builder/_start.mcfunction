@@ -1,4 +1,4 @@
-#vp_core:constructors/srtucture_builder/_start
+#vp_core:constructors/structure_builder/_start
 # 临时对象开始构造迭代
 
 data modify storage vp_core:io field_index set value 0
