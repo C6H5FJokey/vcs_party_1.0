@@ -5,6 +5,8 @@
 gamerule doMobLoot true
 gamerule doMobSpawning true
 gamerule doDaylightCycle true
+gamerule doImmediateRespawn true
+gamerule locatorBar false
 
 # 下一刻跳转到进行状态
 data modify storage vp_core:io game_state set value "running"

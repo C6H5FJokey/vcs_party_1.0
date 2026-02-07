@@ -17,3 +17,9 @@ execute at @e[tag=math_marker,limit=1] run tp @s ~ ~ ~
 execute at @s run spawnpoint @s ~ ~ ~
 # 标签设置
 function vp_core:player_types/waiter/_be
+
+# 死亡/复活设置
+function vp_core:player_space/_get
+data modify storage vp_core:io result.death_func set value "vp_core:hall_example/death_func"
+data modify storage vp_core:io result.respawn_func set value "vp_core:hall_example/respawn_func"
+function vp_core:player_space/_store

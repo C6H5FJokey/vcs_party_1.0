@@ -4,6 +4,9 @@
 # 玩家登入
 execute as @a unless score @s vp_lg matches -1 run function vp_core:lg_player
 
+# 玩家死亡/复活
+execute as @a[scores={vp_death=1..}] at @s run function vp_core:player_death
+
 # 玩家交互框架
 execute as @a run function vp_core:player_main
 

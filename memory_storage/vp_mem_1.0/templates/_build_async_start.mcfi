@@ -1,6 +1,10 @@
 #$(module_prefix)_build_async_start
 # 开始构造游戏实例
 
+# vp_joiner观看游戏实例构造过程（如果区块过多，性能压力较大，该片段可删除！）
+gamemode spectator @a[tag=vp_joiner]
+execute as @e[tag=math_marker,limit=1] run function $(module_prefix)watch_build
+
 # 生成chunk_loader构造器
 data modify storage vp_core:io input set from storage vp_core:class chunk_loader_plate
 execute store result score temp_size int run data get storage vp_core:io field_size

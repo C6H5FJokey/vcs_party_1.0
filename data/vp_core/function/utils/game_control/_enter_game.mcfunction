@@ -13,3 +13,4 @@ function vp_core:utils/game_control/proj_plate with storage vp_core:io control_p
 function vp_core:utils/game_control/build_start with storage vp_core:io control_plate
 # 切换控制器状态
 data modify storage vp_core:io control_state set value "building"
+tellraw @a ["",{"nbt":"game_name","storage":"vp_core:io","interpret":true}, {"text":" constructing...","color":"gray"}]

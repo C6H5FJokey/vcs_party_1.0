@@ -3,6 +3,7 @@
 
 # 创建记分板
 scoreboard objectives add vp_lg minecraft.custom:minecraft.leave_game
+scoreboard objectives add vp_death deathCount
 
 # 设置常量
 scoreboard players set 48 int 48
