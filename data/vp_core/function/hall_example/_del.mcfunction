@@ -17,6 +17,9 @@ tag @e[tag=result,limit=1] add entity_ticked
 # 销毁实体对象
 execute as @e[tag=vp_hall_instance] run function vp_core:hall_example/kill_instance
 
+# 销毁前端页面
+function vp_core:utils/game_select_ui/_del
+
 # 销毁区块任务图层
 data modify entity @e[tag=uuid_marker,limit=1] Thrower set from storage vp_core:io hall_area_uuid
 execute as @e[tag=uuid_marker,limit=1] on origin run kill @s

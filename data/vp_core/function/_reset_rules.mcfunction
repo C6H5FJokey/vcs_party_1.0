@@ -41,7 +41,7 @@ gamerule maxCommandChainLength 2147483647
 gamerule maxCommandForkCount 65536
 gamerule maxEntityCramming 24
 gamerule mobExplosionDropDecay true
-gamerule mobGriefing true
+gamerule mobGriefing false
 gamerule naturalRegeneration true
 gamerule playersNetherPortalCreativeDelay 0
 gamerule playersNetherPortalDefaultDelay 80

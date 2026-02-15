@@ -16,7 +16,7 @@ data modify entity @e[tag=math_marker,limit=1] Pos set from storage math:io xyz
 execute at @e[tag=math_marker,limit=1] run tp @s ~ ~ ~
 execute at @s run spawnpoint @s ~ ~ ~
 # 标签设置
-function vp_core:player_types/waiter/_be
+function vp_core:player_types/joiner/_be
 
 # 死亡/复活设置
 function vp_core:player_space/_get

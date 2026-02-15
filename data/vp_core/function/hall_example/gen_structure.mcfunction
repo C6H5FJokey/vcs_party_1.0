@@ -15,5 +15,8 @@ tag @e[tag=result,limit=1] add vp_hall_instance
 execute at @e[tag=math_marker,limit=1] positioned ~ ~3 ~ as @e[tag=result,limit=1] run function vp_core:utils/ender_gui/_facing_here
 tp @e[tag=math_marker,limit=1] 0 0 0
 
+# 加载选择游戏页面
+execute positioned 196 -57 48 rotated 0.0 0.0 run function vp_core:utils/game_select_ui/_gen
+
 # 加载完成，调用主程序
 data modify entity @s data.area_info.load_func set value "vp_core:hall_example/main"

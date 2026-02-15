@@ -4,4 +4,4 @@
 # 传入玩家为执行者
 
 data modify storage vp_core:io temp_uuid set from entity @s UUID
-execute store result score @s vp_player_id run function vp_core:player_space/pull_index
+execute store result score @s vp_player_id run function vp_core:player_space/pull_index with storage vp_core:io {}

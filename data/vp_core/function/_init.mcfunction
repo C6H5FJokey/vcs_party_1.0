@@ -13,8 +13,10 @@ scoreboard objectives add vp_modular dummy
 # 设置常量
 scoreboard players set 12 int 12
 scoreboard players set 14 int 14
+scoreboard players set 27 int 27
 scoreboard players set 48 int 48
 scoreboard players set 64 int 64
+scoreboard players set 3600 int 3600
 
 # 设置vp时钟
 scoreboard players set vp_clock int 0
@@ -24,8 +26,10 @@ data modify storage math:io xyz set value [0.0d,0.0d,0.0d]
 data modify storage math:io scale set value [0.0f,0.0f,0.0f]
 
 # 初始化各个内置工具模块
+function vp_core:utils/ender_gui/init
 function vp_core:utils/chunk_area/init
 function vp_core:utils/game_control/init
+function vp_core:utils/game_select_ui/init
 
 # 初始化各个内置构造器模块
 function vp_core:constructors/area_clear/init

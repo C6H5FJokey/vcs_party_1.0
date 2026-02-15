@@ -13,3 +13,4 @@ scoreboard players operation vp_progress int > 1 int
 
 # 清理掉落物
 kill @e[type=item,tag=]
+kill @e[type=minecraft:falling_block,tag=]
